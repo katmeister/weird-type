@@ -1,0 +1,5 @@
+.git
+.jekyll-metadata
+.sass-cache
+.sass-cache/*
+config.codekit

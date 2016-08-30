@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+$base-font-family: 'Karla', sans-serif;
+$base-font-size:   20px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+$letter-spacing: -0.02em;
+
+$rhythm:     30px;
+
+$text-color:       #111;
+$background-color: #fff;
+$brand-color:      #FF3D0C;
+
+$beige:            #f1e5c2;
+$white:            #fff;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "jeet",
+  "base",
+  "content"
+;

@@ -1,0 +1,16 @@
+.grad {
+  background: white;
+
+  h1 {
+    background-color: yellow;
+    display: inline-block;
+    color: purple;
+    text-decoration: underline;
+
+    span {
+      background-image: -webkit-linear-gradient(left, red, #FFCC33);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
